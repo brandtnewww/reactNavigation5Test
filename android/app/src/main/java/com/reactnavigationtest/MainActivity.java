@@ -8,13 +8,13 @@ import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
 public class MainActivity extends ReactActivity {
 
     /**
-     * Returns the name of the main component registered from JavaScript.
-     * This is used to schedule rendering of the component.
-     */
-    @Override
-    protected String getMainComponentName() {
-        return "reactNavigationTest";
-    }
+8	   * Returns the name of the main component registered from JavaScript. This is used to schedule
+9	   * rendering of the component.
+10	   */
+11	  @Override
+12	  protected String getMainComponentName() {
+13	    return "RnDiffApp";
+14	  }
 
     @Override
     protected ReactActivityDelegate createReactActivityDelegate() {

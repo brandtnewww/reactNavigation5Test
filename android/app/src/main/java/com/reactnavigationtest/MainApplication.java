@@ -3,17 +3,22 @@ package com.reactnavigationtest;
 import com.reactnavigationtest.generated.BasePackageList;
 
 import android.app.Application;
-// import android.util.Log;
+import android.content.Context;
+import android.util.Log;
 
-import com.airbnb.android.react.lottie.LottiePackage;
-
+import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
-import com.facebook.react.shell.MainReactPackage;
+import com.facebook.react.bridge.JavaScriptExecutorFactory;
+
 import com.facebook.soloader.SoLoader;
-import com.swmansion.reanimated.ReanimatedPackage;
-import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
+
+import com.facebook.hermes.reactexecutor.HermesExecutorFactory;
+
+// import com.airbnb.android.react.lottie.LottiePackage;
+// import com.swmansion.reanimated.ReanimatedPackage;
+// import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 
 import org.unimodules.adapters.react.ReactAdapterPackage;
 import org.unimodules.adapters.react.ModuleRegistryAdapter;
@@ -24,8 +29,9 @@ import expo.modules.constants.ConstantsPackage;
 import expo.modules.permissions.PermissionsPackage;
 import expo.modules.filesystem.FileSystemPackage;
 
-import java.util.Arrays;
+import java.lang.reflect.InvocationTargetException;
 import java.util.List;
+import java.util.Arrays;
 
 public class MainApplication extends Application implements ReactApplication {
 
@@ -42,43 +48,17 @@ public class MainApplication extends Application implements ReactApplication {
       return BuildConfig.DEBUG;
     }
 
-    // protected List<ReactPackage> getPackages() {
-    //   @SuppressWarnings("UnnecessaryLocalVariable")
-    //   List<ReactPackage> packages = new PackageList(this).getPackages();
-
-    //   // Packages that cannot be autolinked yet can be added manually here, for example:
-    //   // packages.add(new MyReactNativePackage());
-
-    //   // Add unimodules
-    //   List<ReactPackage> unimodules = Arrays.<ReactPackage>asList(
-    //     new ModuleRegistryAdapter(mModuleRegistryProvider)
-    //   );
-    //   packages.addAll(unimodules);
-
-    //   return packages;
-    // }
-
     @Override
     protected List<ReactPackage> getPackages() {
       @SuppressWarnings("UnnecessaryLocalVariable")
-
-      // return Arrays.<ReactPackage>asList(
-      //     new MainReactPackage(),
-      //     new ReanimatedPackage(),
-      //     new RNGestureHandlerPackage(),
-      //     new RNScreensPackage(),
-      //     new ModuleRegistryAdapter(mModuleRegistryProvider),
-      //     new LottiePackage()
-      // );
-
       List<ReactPackage> packages = new PackageList(this).getPackages();
 
       // Packages that cannot be autolinked yet can be added manually here, for example:
       packages.add(new MainReactPackage());
-      packages.add(new ReanimatedPackage());
-      packages.add(new RNGestureHandlerPackage());
-      packages.add(new RNScreensPackage());
-      packages.add(new LottiePackage());
+      // packages.add(new ReanimatedPackage());
+      // packages.add(new RNGestureHandlerPackage());
+      // packages.add(new RNScreensPackage());
+      // packages.add(new LottiePackage());
 
         // Add unimodules
       List<ReactPackage> unimodules = Arrays.<ReactPackage>asList(
@@ -105,5 +85,32 @@ public class MainApplication extends Application implements ReactApplication {
   public void onCreate() {
     super.onCreate();
     SoLoader.init(this, /* native exopackage */ false);
+    // initializeFlipper(this); // Remove this line if you don't want Flipper enabled
+  }
+
+  /**
+   * Loads Flipper in React Native templates.
+   *
+   * @param context
+   */
+  private static void initializeFlipper(Context context) {
+    if (BuildConfig.DEBUG) {
+      try {
+        /*
+         We use reflection here to pick up the class that initializes Flipper,
+        since Flipper library is not available in release mode
+        */
+        Class<?> aClass = Class.forName("com.facebook.flipper.ReactNativeFlipper");
+        aClass.getMethod("initializeFlipper", Context.class).invoke(null, context);
+      } catch (ClassNotFoundException e) {
+        e.printStackTrace();
+      } catch (NoSuchMethodException e) {
+        e.printStackTrace();
+      } catch (IllegalAccessException e) {
+        e.printStackTrace();
+      } catch (InvocationTargetException e) {
+        e.printStackTrace();
+      }
+    }
   }
 }

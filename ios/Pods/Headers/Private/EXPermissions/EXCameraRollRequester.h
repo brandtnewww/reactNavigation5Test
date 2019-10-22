@@ -1,1 +1,1 @@
-../../../../../node_modules/react-native-unimodules/node_modules/expo-permissions/ios/EXPermissions/EXCameraRollRequester.h
+../../../../../node_modules/expo-permissions/ios/EXPermissions/EXCameraRollRequester.h

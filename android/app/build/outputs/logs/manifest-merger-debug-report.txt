@@ -1,0 +1,502 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from [:react-native-reanimated] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:lottie-react-native] /Users/lennart/Projects/reactNavigationTest/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-react-native-adapter] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.61.2] /Users/lennart/.gradle/caches/transforms-2/files-2.1/9dc8506267d9771b817c45f93b771334/jetified-react-native-0.61.2/AndroidManifest.xml:2:1-13:12
+MERGED from [:expo-permissions] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.airbnb.android:lottie:3.0.7] /Users/lennart/.gradle/caches/transforms-2/files-2.1/cd412e955bd60ab3eb318358b0c0366a/lottie-3.0.7/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/02986bdc22444181d139cea7132ca12d/appcompat-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-30:12
+MERGED from [:expo-location] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/c5ad4d4620e939a8fefca52df21698c7/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/3bf8844ff2d8c6960b6b9e201fefe60f/jetified-play-services-base-16.0.1/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/1c28282b90c0cb573514d45a0ffc59d8/play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/475c8fe2ecd33f50b487721886190093/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/71edbfe52c95accf48254cbae26e46c0/jetified-play-services-basement-16.0.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/1d93c655cdcaa19a3180f48e63f30b3d/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:expo-web-browser] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/bc194b84aa03b3280ef6ad274c818e45/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/67e3a22614326cadf216274f01d6d423/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] /Users/lennart/.gradle/caches/transforms-2/files-2.1/a330737d01a0c627f579ba832ff8a244/swiperefreshlayout-1.1.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [:expo-app-loader-provider] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-app-loader-provider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-constants] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-font] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-keep-awake] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-linear-gradient] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-sqlite] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-barcode-scanner-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-camera-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-constants-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-face-detector-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-file-system-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-font-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-permissions-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-task-manager-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-core] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-image-loader-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-sensors-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.transition:transition:1.1.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/8d5d6d3814d06e414a5d64990983049f/transition-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/7dc005116f128f1bd58864ebf46f2913/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/151f9c64741ae6c5c2d982716e77e898/fragment-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/46b01e92969b7c805066b71f7b52c3eb/appcompat-resources-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/3d66247cb3e229dc7753f5f4d3b35b4b/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/984e9edaa0792ad5f44429be517dd8ee/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/148a1ae2ee6f29610399c63eb8b6e7ca/activity-1.0.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/1d41761766fdac33e60817aded433078/vectordrawable-animated-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/fe88f66db568b34137c6af8ce4065c9d/vectordrawable-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/cbfe81a657ef2afb513a6ca64388f844/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/985ff358bb91108c25d3fd24361b35b6/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/2dfde23a071269bfc073d57af77f7873/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/e7201af0ac6a1eb782d2b896d1ec4242/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/7b3b7b721ad53547c0e35001526b3ae3/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/ecdcbbf5b476edd5b7f32adcc180fe3e/core-1.1.0-rc01/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/fb37b7f790edcc9d7fe6d3e5314b8c56/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/2d1f640c1b4beb33089ff5c91bbd7f31/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/ef31499a0f6439a8a9923a2f3285ca7e/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/bb2a3d58ef70fea44ccc6005d229bda0/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/56b7aaf5bb0dce463e1901e3e5d95c43/lifecycle-runtime-2.1.0-rc01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/70ce517268fe0c043ed0dce76f958c2b/lifecycle-viewmodel-2.1.0-rc01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/7b521d3e682674b462c19c743fead557/savedstate-1.0.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/8506ddbc1ed30380944ad7f0369e4760/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/35d6382087ac1999db47004e3bf24934/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/8893b90c6f2a61edd1acfa898cb4cde1/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/e7284bace20bec096294b5474e153fbf/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/c073c929da6ad4e112abaac7d3212747/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/e72949b043b8df7a6068dab5e7cd21f2/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/9bda9e7d39dfb949fa46c7d4ce38de41/fresco-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/50baa613817144b21c2c9de341029c27/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/47a7411a08c459b1ce45d5fef3bb0fa7/drawee-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/88eac105aab7ea8791782fcce42a87cd/nativeimagefilters-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/2b94e0b52d03effbd158b6fc40115e6d/imagepipeline-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/899aaea4027e66c6ff7dba7e1bdbba8e/nativeimagetranscoder-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5d5a7ee9aeec75663cbcc986ec00c5f2/imagepipeline-base-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/e84e942e7722071adcb45b6028f9b427/soloader-0.6.0/AndroidManifest.xml:2:1-13:12
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:2:1-30:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/e6b73edf4f69f7194a271b12f7025400/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:1:1-48:12
+	package
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:2:5-38
+		INJECTED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:lottie-react-native] /Users/lennart/Projects/reactNavigationTest/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:lottie-react-native] /Users/lennart/Projects/reactNavigationTest/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:8:22-72
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:9:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:10:22-72
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:11:22-71
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:12:22-63
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:13:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:16:5-81
+MERGED from [:expo-location] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
+MERGED from [:expo-location] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:12:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:17:5-79
+MERGED from [:expo-location] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
+MERGED from [:expo-location] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:14:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:17:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:18:5-65
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:18:22-62
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:19:5-72
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:19:22-69
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:20:5-72
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:20:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:21:5-73
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:21:22-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:22:5-80
+MERGED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+MERGED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:22:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:23:5-71
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:23:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:24:5-81
+MERGED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+MERGED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:24:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:25:5-73
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:25:22-70
+application
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:28:5-46:19
+MERGED from [com.facebook.react:react-native:0.61.2] /Users/lennart/.gradle/caches/transforms-2/files-2.1/9dc8506267d9771b817c45f93b771334/jetified-react-native-0.61.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.2] /Users/lennart/.gradle/caches/transforms-2/files-2.1/9dc8506267d9771b817c45f93b771334/jetified-react-native-0.61.2/AndroidManifest.xml:11:5-20
+MERGED from [com.airbnb.android:lottie:3.0.7] /Users/lennart/.gradle/caches/transforms-2/files-2.1/cd412e955bd60ab3eb318358b0c0366a/lottie-3.0.7/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.0.7] /Users/lennart/.gradle/caches/transforms-2/files-2.1/cd412e955bd60ab3eb318358b0c0366a/lottie-3.0.7/AndroidManifest.xml:9:5-20
+MERGED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-location] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
+MERGED from [:expo-location] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/c5ad4d4620e939a8fefca52df21698c7/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/c5ad4d4620e939a8fefca52df21698c7/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/3bf8844ff2d8c6960b6b9e201fefe60f/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/3bf8844ff2d8c6960b6b9e201fefe60f/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/1c28282b90c0cb573514d45a0ffc59d8/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/1c28282b90c0cb573514d45a0ffc59d8/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/475c8fe2ecd33f50b487721886190093/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/475c8fe2ecd33f50b487721886190093/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/71edbfe52c95accf48254cbae26e46c0/jetified-play-services-basement-16.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/71edbfe52c95accf48254cbae26e46c0/jetified-play-services-basement-16.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/7dc005116f128f1bd58864ebf46f2913/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/7dc005116f128f1bd58864ebf46f2913/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/ecdcbbf5b476edd5b7f32adcc180fe3e/core-1.1.0-rc01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/ecdcbbf5b476edd5b7f32adcc180fe3e/core-1.1.0-rc01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/ef31499a0f6439a8a9923a2f3285ca7e/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/ef31499a0f6439a8a9923a2f3285ca7e/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/bb2a3d58ef70fea44ccc6005d229bda0/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/bb2a3d58ef70fea44ccc6005d229bda0/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/e84e942e7722071adcb45b6028f9b427/soloader-0.6.0/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/e84e942e7722071adcb45b6028f9b427/soloader-0.6.0/AndroidManifest.xml:11:5-20
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:18:5-28:19
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:18:5-28:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/ecdcbbf5b476edd5b7f32adcc180fe3e/core-1.1.0-rc01/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:30:7-39
+	android:roundIcon
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:32:7-52
+	android:icon
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:31:7-41
+	android:allowBackup
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:33:7-34
+	android:theme
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:34:7-38
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:29:7-38
+activity#com.reactnavigationtest.MainActivity
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:35:7-44:18
+	android:label
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:37:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:39:9-51
+	android:configChanges
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:38:9-79
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:36:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:40:9-43:25
+action#android.intent.action.MAIN
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:41:13-65
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:41:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:42:13-73
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:42:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:45:7-84
+	android:name
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:45:17-81
+uses-sdk
+INJECTED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-reanimated] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lottie-react-native] /Users/lennart/Projects/reactNavigationTest/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:lottie-react-native] /Users/lennart/Projects/reactNavigationTest/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:unimodules-react-native-adapter] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.2] /Users/lennart/.gradle/caches/transforms-2/files-2.1/9dc8506267d9771b817c45f93b771334/jetified-react-native-0.61.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.2] /Users/lennart/.gradle/caches/transforms-2/files-2.1/9dc8506267d9771b817c45f93b771334/jetified-react-native-0.61.2/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.airbnb.android:lottie:3.0.7] /Users/lennart/.gradle/caches/transforms-2/files-2.1/cd412e955bd60ab3eb318358b0c0366a/lottie-3.0.7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.0.7] /Users/lennart/.gradle/caches/transforms-2/files-2.1/cd412e955bd60ab3eb318358b0c0366a/lottie-3.0.7/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/02986bdc22444181d139cea7132ca12d/appcompat-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/02986bdc22444181d139cea7132ca12d/appcompat-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-location] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/c5ad4d4620e939a8fefca52df21698c7/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/c5ad4d4620e939a8fefca52df21698c7/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/3bf8844ff2d8c6960b6b9e201fefe60f/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/3bf8844ff2d8c6960b6b9e201fefe60f/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/1c28282b90c0cb573514d45a0ffc59d8/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/1c28282b90c0cb573514d45a0ffc59d8/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/475c8fe2ecd33f50b487721886190093/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/475c8fe2ecd33f50b487721886190093/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/71edbfe52c95accf48254cbae26e46c0/jetified-play-services-basement-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/71edbfe52c95accf48254cbae26e46c0/jetified-play-services-basement-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/1d93c655cdcaa19a3180f48e63f30b3d/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/1d93c655cdcaa19a3180f48e63f30b3d/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [:expo-web-browser] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.browser:browser:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/bc194b84aa03b3280ef6ad274c818e45/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/bc194b84aa03b3280ef6ad274c818e45/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/67e3a22614326cadf216274f01d6d423/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/67e3a22614326cadf216274f01d6d423/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] /Users/lennart/.gradle/caches/transforms-2/files-2.1/a330737d01a0c627f579ba832ff8a244/swiperefreshlayout-1.1.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] /Users/lennart/.gradle/caches/transforms-2/files-2.1/a330737d01a0c627f579ba832ff8a244/swiperefreshlayout-1.1.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [:expo-app-loader-provider] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-app-loader-provider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-app-loader-provider] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-app-loader-provider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-font] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-font] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] /Users/lennart/Projects/reactNavigationTest/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.transition:transition:1.1.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/8d5d6d3814d06e414a5d64990983049f/transition-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/8d5d6d3814d06e414a5d64990983049f/transition-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/7dc005116f128f1bd58864ebf46f2913/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/7dc005116f128f1bd58864ebf46f2913/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/151f9c64741ae6c5c2d982716e77e898/fragment-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/151f9c64741ae6c5c2d982716e77e898/fragment-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/46b01e92969b7c805066b71f7b52c3eb/appcompat-resources-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/46b01e92969b7c805066b71f7b52c3eb/appcompat-resources-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/3d66247cb3e229dc7753f5f4d3b35b4b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/3d66247cb3e229dc7753f5f4d3b35b4b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/984e9edaa0792ad5f44429be517dd8ee/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/984e9edaa0792ad5f44429be517dd8ee/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/148a1ae2ee6f29610399c63eb8b6e7ca/activity-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/148a1ae2ee6f29610399c63eb8b6e7ca/activity-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/1d41761766fdac33e60817aded433078/vectordrawable-animated-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/1d41761766fdac33e60817aded433078/vectordrawable-animated-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/fe88f66db568b34137c6af8ce4065c9d/vectordrawable-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/fe88f66db568b34137c6af8ce4065c9d/vectordrawable-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/cbfe81a657ef2afb513a6ca64388f844/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/cbfe81a657ef2afb513a6ca64388f844/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/985ff358bb91108c25d3fd24361b35b6/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/985ff358bb91108c25d3fd24361b35b6/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/2dfde23a071269bfc073d57af77f7873/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/2dfde23a071269bfc073d57af77f7873/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/e7201af0ac6a1eb782d2b896d1ec4242/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/e7201af0ac6a1eb782d2b896d1ec4242/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/7b3b7b721ad53547c0e35001526b3ae3/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/7b3b7b721ad53547c0e35001526b3ae3/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/ecdcbbf5b476edd5b7f32adcc180fe3e/core-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/ecdcbbf5b476edd5b7f32adcc180fe3e/core-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/fb37b7f790edcc9d7fe6d3e5314b8c56/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/fb37b7f790edcc9d7fe6d3e5314b8c56/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/2d1f640c1b4beb33089ff5c91bbd7f31/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/2d1f640c1b4beb33089ff5c91bbd7f31/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/ef31499a0f6439a8a9923a2f3285ca7e/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/ef31499a0f6439a8a9923a2f3285ca7e/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/bb2a3d58ef70fea44ccc6005d229bda0/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/bb2a3d58ef70fea44ccc6005d229bda0/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/56b7aaf5bb0dce463e1901e3e5d95c43/lifecycle-runtime-2.1.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/56b7aaf5bb0dce463e1901e3e5d95c43/lifecycle-runtime-2.1.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/70ce517268fe0c043ed0dce76f958c2b/lifecycle-viewmodel-2.1.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/70ce517268fe0c043ed0dce76f958c2b/lifecycle-viewmodel-2.1.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/7b521d3e682674b462c19c743fead557/savedstate-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /Users/lennart/.gradle/caches/transforms-2/files-2.1/7b521d3e682674b462c19c743fead557/savedstate-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/8506ddbc1ed30380944ad7f0369e4760/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/8506ddbc1ed30380944ad7f0369e4760/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/35d6382087ac1999db47004e3bf24934/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/35d6382087ac1999db47004e3bf24934/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/8893b90c6f2a61edd1acfa898cb4cde1/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/8893b90c6f2a61edd1acfa898cb4cde1/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/e7284bace20bec096294b5474e153fbf/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/e7284bace20bec096294b5474e153fbf/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/c073c929da6ad4e112abaac7d3212747/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/c073c929da6ad4e112abaac7d3212747/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/e72949b043b8df7a6068dab5e7cd21f2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/e72949b043b8df7a6068dab5e7cd21f2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/9bda9e7d39dfb949fa46c7d4ce38de41/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/9bda9e7d39dfb949fa46c7d4ce38de41/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/50baa613817144b21c2c9de341029c27/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/50baa613817144b21c2c9de341029c27/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/47a7411a08c459b1ce45d5fef3bb0fa7/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/47a7411a08c459b1ce45d5fef3bb0fa7/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/88eac105aab7ea8791782fcce42a87cd/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/88eac105aab7ea8791782fcce42a87cd/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/2b94e0b52d03effbd158b6fc40115e6d/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/2b94e0b52d03effbd158b6fc40115e6d/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/899aaea4027e66c6ff7dba7e1bdbba8e/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/899aaea4027e66c6ff7dba7e1bdbba8e/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5d5a7ee9aeec75663cbcc986ec00c5f2/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5d5a7ee9aeec75663cbcc986ec00c5f2/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/e84e942e7722071adcb45b6028f9b427/soloader-0.6.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/e84e942e7722071adcb45b6028f9b427/soloader-0.6.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:8:5-10:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/e6b73edf4f69f7194a271b12f7025400/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/e6b73edf4f69f7194a271b12f7025400/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.STORAGE
+ADDED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-63
+provider#expo.modules.filesystem.FileSystemFileProvider
+ADDED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-27:20
+	android:grantUriPermissions
+		ADDED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-74
+	android:exported
+		ADDED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
+	tools:replace
+		ADDED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-48
+	android:name
+		ADDED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:70
+	android:resource
+		ADDED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-67
+	android:name
+		ADDED from [:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:expo-location] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from [:expo-location] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-74
+service#expo.modules.location.services.LocationTaskService
+ADDED from [:expo-location] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [:expo-location] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:expo-location] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/3bf8844ff2d8c6960b6b9e201fefe60f/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/3bf8844ff2d8c6960b6b9e201fefe60f/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/3bf8844ff2d8c6960b6b9e201fefe60f/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/3bf8844ff2d8c6960b6b9e201fefe60f/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/71edbfe52c95accf48254cbae26e46c0/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/71edbfe52c95accf48254cbae26e46c0/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/lennart/.gradle/caches/transforms-2/files-2.1/71edbfe52c95accf48254cbae26e46c0/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:13:22-76
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:15:5-98
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:15:22-95
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:16:5-94
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:16:22-91
+service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:20:13-132
+service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:23:13-127
+service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/lennart/.gradle/caches/transforms-2/files-2.1/5812b8f3fab643d60e5fb4b1e35b57e2/jetified-library-3.2.11/AndroidManifest.xml:26:13-120

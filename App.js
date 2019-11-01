@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
+import { Text } from 'react-native'
 import { NavigationNativeContainer, useLinking } from '@react-navigation/native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { createStackNavigator } from '@react-navigation/stack'
@@ -75,8 +76,43 @@ const parseDeepLink = (path, options) => {
 const Tab = createBottomTabNavigator()
 const Stack = createStackNavigator()
 
+const tabConfiguration = name => {
+  if (name === 'Tab1') {
+    return {
+      label: 'Tab A',
+      color: 'red'
+    }
+  } else {
+    return (
+      {
+        label: 'Tab B',
+        color: 'blue'
+      }
+    )
+  }
+}
+
+const tabScreenOptions = props => {
+  const { name } = props.route
+  const { label, color } = tabConfiguration(name)
+
+  console.warn(name)
+  return ({
+    tabBarLabel: ({ focused }) => {
+      return <Text style={{ fontSize: 10, lineHeight: 12, color: focused ? color : 'grey' }}>{label}</Text>
+    }
+  })
+}
+
+// const TabBarLabel = styled(StyledText)`
+//   font-size: 10;
+//   line-height: 12;
+//   color: ${props => !props.focused ? colors.grey : props.activeTintColor};
+// `
+
 const TabNavigator = (screenProps) => (
-  <Tab.Navigator screenProps={screenProps}>
+  // <Tab.Navigator tabBarOptions={tabBarOptions} screenOptions={(route) => tabScreenOptions(route)}>
+  <Tab.Navigator screenOptions={(route) => tabScreenOptions(route)}>
     <Tab.Screen name='Tab1'>
       {() => (
         <Stack.Navigator headerMode='none'>

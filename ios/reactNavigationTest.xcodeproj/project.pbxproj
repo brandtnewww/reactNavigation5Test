@@ -11,14 +11,8 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		6D83FC0CF5D3474FA754C2DA /* NeuzeitGro-Reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2A9296841E4448FAC618BC7 /* NeuzeitGro-Reg.otf */; };
-		7BBF56011AE84BDE9B3A1DB1 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7474CD468526480580A9C5B6 /* Roboto-Bold.ttf */; };
-		90B261E4BE36405BBBCDEEB5 /* NeuzeitGroTOT-Bol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD14E0DEBCB342F6AECBA119 /* NeuzeitGroTOT-Bol.ttf */; };
-		918303D4CD504F7A84029E41 /* NeuzeitGroTOT-Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA33BE9C5ECF43D98C785EFD /* NeuzeitGroTOT-Reg.ttf */; };
 		AE5BBC15615A28AB703CA3DC /* libPods-reactNavigationTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CE47F65058421E3E0A53FA /* libPods-reactNavigationTest.a */; };
-		B63ECCBD570C4B679136470D /* Hack-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC619B865C754912BA4C21DD /* Hack-Bold.ttf */; };
 		DF9F1C13235E532200C86AAB /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9F1C12235E532200C86AAB /* File.swift */; };
-		E750057D0CF741BDB34159AD /* NeuzeitGro-Bol.otf in Resources */ = {isa = PBXBuildFile; fileRef = 641541E717B0498DA10DBFF2 /* NeuzeitGro-Bol.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -202,12 +196,6 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				90B261E4BE36405BBBCDEEB5 /* NeuzeitGroTOT-Bol.ttf in Resources */,
-				918303D4CD504F7A84029E41 /* NeuzeitGroTOT-Reg.ttf in Resources */,
-				7BBF56011AE84BDE9B3A1DB1 /* Roboto-Bold.ttf in Resources */,
-				B63ECCBD570C4B679136470D /* Hack-Bold.ttf in Resources */,
-				E750057D0CF741BDB34159AD /* NeuzeitGro-Bol.otf in Resources */,
-				6D83FC0CF5D3474FA754C2DA /* NeuzeitGro-Reg.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

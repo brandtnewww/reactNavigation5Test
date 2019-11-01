@@ -11,8 +11,14 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		6D83FC0CF5D3474FA754C2DA /* NeuzeitGro-Reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2A9296841E4448FAC618BC7 /* NeuzeitGro-Reg.otf */; };
+		7BBF56011AE84BDE9B3A1DB1 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7474CD468526480580A9C5B6 /* Roboto-Bold.ttf */; };
+		90B261E4BE36405BBBCDEEB5 /* NeuzeitGroTOT-Bol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD14E0DEBCB342F6AECBA119 /* NeuzeitGroTOT-Bol.ttf */; };
+		918303D4CD504F7A84029E41 /* NeuzeitGroTOT-Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA33BE9C5ECF43D98C785EFD /* NeuzeitGroTOT-Reg.ttf */; };
 		AE5BBC15615A28AB703CA3DC /* libPods-reactNavigationTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CE47F65058421E3E0A53FA /* libPods-reactNavigationTest.a */; };
+		B63ECCBD570C4B679136470D /* Hack-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC619B865C754912BA4C21DD /* Hack-Bold.ttf */; };
 		DF9F1C13235E532200C86AAB /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9F1C12235E532200C86AAB /* File.swift */; };
+		E750057D0CF741BDB34159AD /* NeuzeitGro-Bol.otf in Resources */ = {isa = PBXBuildFile; fileRef = 641541E717B0498DA10DBFF2 /* NeuzeitGro-Bol.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +34,17 @@
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CE47F65058421E3E0A53FA /* libPods-reactNavigationTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNavigationTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6379BE40CB6776030CB48035 /* Pods-reactNavigationTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNavigationTest.release.xcconfig"; path = "Target Support Files/Pods-reactNavigationTest/Pods-reactNavigationTest.release.xcconfig"; sourceTree = "<group>"; };
+		641541E717B0498DA10DBFF2 /* NeuzeitGro-Bol.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NeuzeitGro-Bol.otf"; path = "../assets/fonts/NeuzeitGro-Bol.otf"; sourceTree = "<group>"; };
+		7474CD468526480580A9C5B6 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		BD14E0DEBCB342F6AECBA119 /* NeuzeitGroTOT-Bol.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NeuzeitGroTOT-Bol.ttf"; path = "../assets/fonts/NeuzeitGroTOT-Bol.ttf"; sourceTree = "<group>"; };
+		D2A9296841E4448FAC618BC7 /* NeuzeitGro-Reg.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NeuzeitGro-Reg.otf"; path = "../assets/fonts/NeuzeitGro-Reg.otf"; sourceTree = "<group>"; };
 		DF9F1C11235E532100C86AAB /* reactNavigationTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "reactNavigationTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		DF9F1C12235E532200C86AAB /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		DFA9F99D2364C561003A8FF1 /* reactNavigationTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = reactNavigationTest.entitlements; path = reactNavigationTest/reactNavigationTest.entitlements; sourceTree = "<group>"; };
+		EA33BE9C5ECF43D98C785EFD /* NeuzeitGroTOT-Reg.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NeuzeitGroTOT-Reg.ttf"; path = "../assets/fonts/NeuzeitGroTOT-Reg.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		FC619B865C754912BA4C21DD /* Hack-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hack-Bold.ttf"; path = "../assets/fonts/Hack-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 		13B07FAE1A68108700A75B9A /* reactNavigationTest */ = {
 			isa = PBXGroup;
 			children = (
+				DFA9F99D2364C561003A8FF1 /* reactNavigationTest.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -67,6 +81,19 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = reactNavigationTest;
+			sourceTree = "<group>";
+		};
+		260C8AF0D5FF427BBACBF472 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD14E0DEBCB342F6AECBA119 /* NeuzeitGroTOT-Bol.ttf */,
+				EA33BE9C5ECF43D98C785EFD /* NeuzeitGroTOT-Reg.ttf */,
+				7474CD468526480580A9C5B6 /* Roboto-Bold.ttf */,
+				FC619B865C754912BA4C21DD /* Hack-Bold.ttf */,
+				641541E717B0498DA10DBFF2 /* NeuzeitGro-Bol.otf */,
+				D2A9296841E4448FAC618BC7 /* NeuzeitGro-Reg.otf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -97,6 +124,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				06FA6353762421BF21A9EEBC /* Pods */,
 				DF9F1C11235E532100C86AAB /* reactNavigationTest-Bridging-Header.h */,
+				260C8AF0D5FF427BBACBF472 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -140,7 +168,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
@@ -174,6 +202,12 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				90B261E4BE36405BBBCDEEB5 /* NeuzeitGroTOT-Bol.ttf in Resources */,
+				918303D4CD504F7A84029E41 /* NeuzeitGroTOT-Reg.ttf in Resources */,
+				7BBF56011AE84BDE9B3A1DB1 /* Roboto-Bold.ttf in Resources */,
+				B63ECCBD570C4B679136470D /* Hack-Bold.ttf in Resources */,
+				E750057D0CF741BDB34159AD /* NeuzeitGro-Bol.otf in Resources */,
+				6D83FC0CF5D3474FA754C2DA /* NeuzeitGro-Reg.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = reactNavigationTest/reactNavigationTest.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				INFOPLIST_FILE = reactNavigationTest/Info.plist;
@@ -293,6 +328,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = reactNavigationTest/reactNavigationTest.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = reactNavigationTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -1,5 +1,5 @@
-import React, { Fragment, useEffect, useState } from 'react'
-import { NavigationNativeContainer } from '@react-navigation/native'
+import React, { useEffect, useRef, useState } from 'react'
+import { NavigationNativeContainer, useLinking } from '@react-navigation/native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { createStackNavigator } from '@react-navigation/stack'
 import { useScreens } from 'react-native-screens'
@@ -14,18 +14,70 @@ import ScreenG from './screens/ScreenG'
 
 useScreens()
 
-// Create a Stack Nav with a Tab Nav and a Modal
-// Implement Lottie Animations on Each Screen & Test Performance
-// Implement Switch Navigation
+const parseDeepLink = (path, options) => {
+  const regex = /[?&]([^=#]+)=([^&#]*)/g
+  const params = {}
+  let match
 
-// Plan Navigation for ClassNinjas
+  while ((match = regex.exec(path))) {
+    params[match[1]] = match[2]
+  }
+
+  let navigationState
+
+  // xcrun simctl openurl booted reactNavigationTest://screenE
+  if (path.match('screenE')) {
+    navigationState = {
+      routes: [
+        {
+          name: 'Main',
+          state: {
+            routes: [
+              {
+                name: 'ScreenE',
+                params: { goBack: 'tabs' }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+
+  // xcrun simctl openurl booted reactNavigationTest://tab2
+  if (path.match('tab2')) {
+    navigationState = {
+      routes: [
+        {
+          name: 'Main',
+          state: {
+            routes: [
+              {
+                name: 'TabStack',
+                state: {
+                  routes: [
+                    {
+                      name: 'Tab2'
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+
+  return navigationState
+}
 
 const Tab = createBottomTabNavigator()
 const Stack = createStackNavigator()
 
 const TabNavigator = (screenProps) => (
   <Tab.Navigator screenProps={screenProps}>
-    <Tab.Screen name='Tab 1'>
+    <Tab.Screen name='Tab1'>
       {() => (
         <Stack.Navigator headerMode='none'>
           <Stack.Screen name='ScreenA' component={ScreenA} />
@@ -34,7 +86,7 @@ const TabNavigator = (screenProps) => (
         </Stack.Navigator>
       )}
     </Tab.Screen>
-    <Tab.Screen name='Tab 2'>
+    <Tab.Screen name='Tab2'>
       {() => (
         <Stack.Navigator headerMode='none'>
           <Stack.Screen name='ScreenC' component={ScreenC} />
@@ -56,19 +108,41 @@ const MainNavigator = (screenProps) => (
 )
 
 export default function App () {
+  const navigationRef = useRef()
+
+  const prefixes = ['reactNavigationTest://']
+  const { getInitialState } = useLinking(navigationRef, { prefixes, getStateFromPath: (path, options) => parseDeepLink(path, options) })
+
   const [isLoading, setIsLoading] = useState(true)
   const [userToken, setUserToken] = useState(undefined)
+  const [isReady, setIsReady] = useState(false)
+  const [initialState, setInitialState] = useState()
 
   useEffect(() => {
-    // const userToken = 'ABCDEFGHI'
+    const userToken = 'ABCDEFGHI'
     setTimeout(() => {
       setIsLoading(false)
     }, 1500)
     setUserToken(userToken)
   }, [])
 
+  useEffect(() => {
+    getInitialState()
+      .catch(() => {})
+      .then(state => {
+        if (state !== undefined) {
+          setInitialState(state)
+        }
+        setIsReady(true)
+      })
+  }, [getInitialState])
+
+  if (!isReady) {
+    return null
+  }
+
   return (
-    <NavigationNativeContainer>
+    <NavigationNativeContainer initialState={initialState} ref={navigationRef}>
       <Stack.Navigator headerMode='none'>
         {isLoading ? (
           <Stack.Screen name='Splash' component={ScreenF} />

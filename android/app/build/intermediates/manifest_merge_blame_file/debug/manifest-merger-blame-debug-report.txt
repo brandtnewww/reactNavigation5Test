@@ -1,0 +1,136 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.reactnavigationtest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+12-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:6:5-77
+12-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:6:22-75
+13
+14    <!-- OPTIONAL PERMISSIONS, REMOVE WHATEVER YOU DO NOT NEED -->
+15    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+15-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:9:5-75
+15-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:9:22-72
+16    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+16-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:10:5-80
+16-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:11:5-75
+17-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:11:22-72
+18    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+18-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:12:5-74
+18-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:12:22-71
+19    <uses-permission android:name="android.permission.VIBRATE" />
+19-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:13:5-66
+19-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:13:22-63
+20    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+20-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:14:5-80
+20-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:14:22-77
+21
+22    <!-- These require runtime permissions on M -->
+23    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+23-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:17:5-81
+23-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:17:22-78
+24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+24-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:18:5-79
+24-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:18:22-76
+25    <uses-permission android:name="android.permission.CAMERA" />
+25-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:19:5-65
+25-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:19:22-62
+26    <uses-permission android:name="android.permission.READ_CONTACTS" />
+26-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:20:5-72
+26-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:20:22-69
+27    <uses-permission android:name="android.permission.READ_CALENDAR" />
+27-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:21:5-72
+27-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:21:22-69
+28    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+28-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:22:5-73
+28-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:22:22-70
+29    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+29-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:23:5-80
+29-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:23:22-77
+30    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+30-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:24:5-71
+30-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:24:22-68
+31    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+31-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:25:5-81
+31-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:25:22-78
+32    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+32-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:26:5-73
+32-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:26:22-70
+33    <uses-permission android:name="android.permission.STORAGE" /> <!-- END OPTIONAL PERMISSIONS -->
+33-->[:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-66
+33-->[:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-63
+34    <application
+34-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:29:5-47:19
+35        android:name="com.reactnavigationtest.MainApplication"
+35-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:30:7-38
+36        android:allowBackup="false"
+36-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:34:7-34
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.1.0] /Users/lennart/.gradle/caches/transforms-2/files-2.1/074ab397f55d3f4ec630db74b7439ee9/core-1.1.0/AndroidManifest.xml:24:18-86
+38        android:debuggable="true"
+39        android:icon="@mipmap/ic_launcher"
+39-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:32:7-41
+40        android:label="@string/app_name"
+40-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:31:7-39
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:33:7-52
+42        android:testOnly="true"
+43        android:theme="@style/AppTheme" >
+43-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:35:7-38
+44        <activity
+44-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:36:7-45:18
+45            android:name="com.reactnavigationtest.MainActivity"
+45-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:37:9-37
+46            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+46-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:39:9-79
+47            android:label="@string/app_name"
+47-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:38:9-41
+48            android:windowSoftInputMode="adjustResize" >
+48-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:40:9-51
+49            <intent-filter>
+49-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:41:9-44:25
+50                <action android:name="android.intent.action.MAIN" />
+50-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:42:13-65
+50-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:42:21-62
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:43:13-73
+52-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:43:23-70
+53            </intent-filter>
+54        </activity>
+55        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+55-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:46:7-84
+55-->/Users/lennart/Projects/reactNavigationTest/android/app/src/main/AndroidManifest.xml:46:17-81
+56
+57        <provider
+57-->[:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-27:20
+58            android:name="expo.modules.filesystem.FileSystemFileProvider"
+58-->[:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
+59            android:authorities="com.reactnavigationtest.FileSystemFileProvider"
+59-->[:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-74
+60            android:exported="false"
+60-->[:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
+61            android:grantUriPermissions="true" >
+61-->[:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-47
+62            <meta-data
+62-->[:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:70
+63                android:name="android.support.FILE_PROVIDER_PATHS"
+63-->[:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+64                android:resource="@xml/file_system_provider_paths" />
+64-->[:expo-file-system] /Users/lennart/Projects/reactNavigationTest/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-67
+65        </provider>
+66    </application>
+67
+68</manifest>
